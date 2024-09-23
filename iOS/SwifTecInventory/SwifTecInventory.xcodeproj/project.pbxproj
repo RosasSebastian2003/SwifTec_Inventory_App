@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBF30F82CA139000078025D /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F22CA139000078025D /* InventoryItem.swift */; };
+		3CBF30F92CA139000078025D /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F42CA139000078025D /* InventoryListViewModel.swift */; };
+		3CBF30FA2CA139000078025D /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F02CA139000078025D /* String-Extension.swift */; };
+		3CBF30FB2CA139000078025D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F62CA139000078025D /* AppDelegate.swift */; };
+		3CBF30FE2CA139BB0078025D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3CBF30FD2CA139BB0078025D /* FirebaseFirestore */; };
+		3CBF31002CA139BB0078025D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CBF30FF2CA139BB0078025D /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CBF30D12CA138A60078025D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBF30B82CA138A30078025D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBF30BF2CA138A30078025D;
+			remoteInfo = SwifTecInventory;
+		};
+		3CBF30DB2CA138A60078025D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBF30B82CA138A30078025D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBF30BF2CA138A30078025D;
+			remoteInfo = SwifTecInventory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBF30C02CA138A30078025D /* SwifTecInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifTecInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBF30D02CA138A60078025D /* SwifTecInventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifTecInventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBF30DA2CA138A60078025D /* SwifTecInventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifTecInventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBF30F02CA139000078025D /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		3CBF30F22CA139000078025D /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		3CBF30F42CA139000078025D /* InventoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewModel.swift; sourceTree = "<group>"; };
+		3CBF30F62CA139000078025D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CBF31022CA13A180078025D /* Exceptions for "SwifTecInventory" folder in "SwifTecInventory" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3CBF30BF2CA138A30078025D /* SwifTecInventory */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3CBF30C22CA138A30078025D /* SwifTecInventory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CBF31022CA13A180078025D /* Exceptions for "SwifTecInventory" folder in "SwifTecInventory" target */,
+			);
+			path = SwifTecInventory;
+			sourceTree = "<group>";
+		};
+		3CBF30D32CA138A60078025D /* SwifTecInventoryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwifTecInventoryTests;
+			sourceTree = "<group>";
+		};
+		3CBF30DD2CA138A60078025D /* SwifTecInventoryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwifTecInventoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBF30BD2CA138A30078025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF30FE2CA139BB0078025D /* FirebaseFirestore in Frameworks */,
+				3CBF31002CA139BB0078025D /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30CD2CA138A60078025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30D72CA138A60078025D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBF30B72CA138A30078025D = {
+			isa = PBXGroup;
+			children = (
+				3CBF30C22CA138A30078025D /* SwifTecInventory */,
+				3CBF30D32CA138A60078025D /* SwifTecInventoryTests */,
+				3CBF30DD2CA138A60078025D /* SwifTecInventoryUITests */,
+				3CBF30C12CA138A30078025D /* Products */,
+				3CBF30F72CA139000078025D /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBF30C12CA138A30078025D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF30C02CA138A30078025D /* SwifTecInventory.app */,
+				3CBF30D02CA138A60078025D /* SwifTecInventoryTests.xctest */,
+				3CBF30DA2CA138A60078025D /* SwifTecInventoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBF30F12CA139000078025D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF30F02CA139000078025D /* String-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CBF30F32CA139000078025D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF30F22CA139000078025D /* InventoryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CBF30F52CA139000078025D /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF30F42CA139000078025D /* InventoryListViewModel.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		3CBF30F72CA139000078025D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CBF30F12CA139000078025D /* Extensions */,
+				3CBF30F32CA139000078025D /* Models */,
+				3CBF30F52CA139000078025D /* Observables */,
+				3CBF30F62CA139000078025D /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBF30BF2CA138A30078025D /* SwifTecInventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBF30E42CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventory" */;
+			buildPhases = (
+				3CBF30BC2CA138A30078025D /* Sources */,
+				3CBF30BD2CA138A30078025D /* Frameworks */,
+				3CBF30BE2CA138A30078025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3CBF30C22CA138A30078025D /* SwifTecInventory */,
+			);
+			name = SwifTecInventory;
+			packageProductDependencies = (
+				3CBF30FD2CA139BB0078025D /* FirebaseFirestore */,
+				3CBF30FF2CA139BB0078025D /* FirebaseStorage */,
+			);
+			productName = SwifTecInventory;
+			productReference = 3CBF30C02CA138A30078025D /* SwifTecInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CBF30CF2CA138A60078025D /* SwifTecInventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBF30E72CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventoryTests" */;
+			buildPhases = (
+				3CBF30CC2CA138A60078025D /* Sources */,
+				3CBF30CD2CA138A60078025D /* Frameworks */,
+				3CBF30CE2CA138A60078025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBF30D22CA138A60078025D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CBF30D32CA138A60078025D /* SwifTecInventoryTests */,
+			);
+			name = SwifTecInventoryTests;
+			packageProductDependencies = (
+			);
+			productName = SwifTecInventoryTests;
+			productReference = 3CBF30D02CA138A60078025D /* SwifTecInventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CBF30D92CA138A60078025D /* SwifTecInventoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBF30EA2CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventoryUITests" */;
+			buildPhases = (
+				3CBF30D62CA138A60078025D /* Sources */,
+				3CBF30D72CA138A60078025D /* Frameworks */,
+				3CBF30D82CA138A60078025D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBF30DC2CA138A60078025D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CBF30DD2CA138A60078025D /* SwifTecInventoryUITests */,
+			);
+			name = SwifTecInventoryUITests;
+			packageProductDependencies = (
+			);
+			productName = SwifTecInventoryUITests;
+			productReference = 3CBF30DA2CA138A60078025D /* SwifTecInventoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBF30B82CA138A30078025D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3CBF30BF2CA138A30078025D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3CBF30CF2CA138A60078025D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3CBF30BF2CA138A30078025D;
+					};
+					3CBF30D92CA138A60078025D = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3CBF30BF2CA138A30078025D;
+					};
+				};
+			};
+			buildConfigurationList = 3CBF30BB2CA138A30078025D /* Build configuration list for PBXProject "SwifTecInventory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBF30B72CA138A30078025D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3CBF30FC2CA139BB0078025D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3CBF30C12CA138A30078025D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBF30BF2CA138A30078025D /* SwifTecInventory */,
+				3CBF30CF2CA138A60078025D /* SwifTecInventoryTests */,
+				3CBF30D92CA138A60078025D /* SwifTecInventoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBF30BE2CA138A30078025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30CE2CA138A60078025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30D82CA138A60078025D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBF30BC2CA138A30078025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBF30F82CA139000078025D /* InventoryItem.swift in Sources */,
+				3CBF30F92CA139000078025D /* InventoryListViewModel.swift in Sources */,
+				3CBF30FA2CA139000078025D /* String-Extension.swift in Sources */,
+				3CBF30FB2CA139000078025D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30CC2CA138A60078025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBF30D62CA138A60078025D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CBF30D22CA138A60078025D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBF30BF2CA138A30078025D /* SwifTecInventory */;
+			targetProxy = 3CBF30D12CA138A60078025D /* PBXContainerItemProxy */;
+		};
+		3CBF30DC2CA138A60078025D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBF30BF2CA138A30078025D /* SwifTecInventory */;
+			targetProxy = 3CBF30DB2CA138A60078025D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CBF30E22CA138A60078025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CBF30E32CA138A60078025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CBF30E52CA138A60078025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwifTecInventory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CBF30E62CA138A60078025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwifTecInventory/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CBF30E82CA138A60078025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifTecInventory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwifTecInventory";
+			};
+			name = Debug;
+		};
+		3CBF30E92CA138A60078025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwifTecInventory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwifTecInventory";
+			};
+			name = Release;
+		};
+		3CBF30EB2CA138A60078025D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwifTecInventory;
+			};
+			name = Debug;
+		};
+		3CBF30EC2CA138A60078025D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwifTecInventory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBF30BB2CA138A30078025D /* Build configuration list for PBXProject "SwifTecInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBF30E22CA138A60078025D /* Debug */,
+				3CBF30E32CA138A60078025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBF30E42CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBF30E52CA138A60078025D /* Debug */,
+				3CBF30E62CA138A60078025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBF30E72CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBF30E82CA138A60078025D /* Debug */,
+				3CBF30E92CA138A60078025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBF30EA2CA138A60078025D /* Build configuration list for PBXNativeTarget "SwifTecInventoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBF30EB2CA138A60078025D /* Debug */,
+				3CBF30EC2CA138A60078025D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CBF30FC2CA139BB0078025D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CBF30FD2CA139BB0078025D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CBF30FC2CA139BB0078025D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3CBF30FF2CA139BB0078025D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CBF30FC2CA139BB0078025D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CBF30B82CA138A30078025D /* Project object */;
+}

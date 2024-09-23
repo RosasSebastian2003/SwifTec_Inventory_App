@@ -18,6 +18,7 @@
 		3C7C32002CA11A610031752B /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C31FF2CA11A610031752B /* InventoryItem.swift */; };
 		3C7C32042CA11CAF0031752B /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C32032CA11CAF0031752B /* InventoryListViewModel.swift */; };
 		3C7C32072CA11F450031752B /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C32062CA11F450031752B /* String-Extension.swift */; };
+		3C7C320C2CA1220B0031752B /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7C320B2CA1220B0031752B /* InventoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3C7C31FF2CA11A610031752B /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
 		3C7C32032CA11CAF0031752B /* InventoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewModel.swift; sourceTree = "<group>"; };
 		3C7C32062CA11F450031752B /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		3C7C320B2CA1220B0031752B /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		3C7C31E32CA0F90C0031752B /* SwifTec-Inventory-App */ = {
 			isa = PBXGroup;
 			children = (
+				3C7C32082CA121D50031752B /* Views */,
 				3C7C31FA2CA1178C0031752B /* Info.plist */,
 				3C7C31F82CA0FE8F0031752B /* GoogleService-Info-2.plist */,
 				3C7C31E42CA0F90C0031752B /* SwifTec_Inventory_App.swift */,
@@ -126,6 +129,14 @@
 				3C7C32062CA11F450031752B /* String-Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C7C32082CA121D50031752B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C7C320B2CA1220B0031752B /* InventoryListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				3C7C31E52CA0F90C0031752B /* SwifTec_Inventory_App.swift in Sources */,
 				3C7C32002CA11A610031752B /* InventoryItem.swift in Sources */,
 				3C7C32042CA11CAF0031752B /* InventoryListViewModel.swift in Sources */,
+				3C7C320C2CA1220B0031752B /* InventoryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
