@@ -15,6 +15,4 @@ class NavigationViewModel: ObservableObject {
     init(selectedItem: InventoryItem? = nil) {
         self.selectedItem = selectedItem
     }
-    
-    
 }

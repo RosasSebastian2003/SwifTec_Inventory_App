@@ -90,9 +90,3 @@ struct InventoryItemView: View {
         }
     }
 }
-
-#Preview {
-    @StateObject var navVM = NavigationViewModel(selectedItem: .init(id: "25CEF568-5B5C-46CF-A19C-17459AF7DE9", name: "", quantity: 0))
-    return InventoryItemView()
-        .environmentobject(navVM)
-}

@@ -12,10 +12,6 @@
 		395F1A772CA3A46600588845 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 395F1A762CA3A46600588845 /* FirebaseStorage */; };
 		395F1A792CA3A47100588845 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 395F1A782CA3A47100588845 /* FirebaseFirestore */; };
 		396A40432CA3A5B30066C6C9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 396A40422CA3A5B30066C6C9 /* RealityKitContent */; };
-		3CBF30F82CA139000078025D /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F22CA139000078025D /* InventoryItem.swift */; };
-		3CBF30F92CA139000078025D /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F42CA139000078025D /* InventoryListViewModel.swift */; };
-		3CBF30FA2CA139000078025D /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F02CA139000078025D /* String-Extension.swift */; };
-		3CBF30FB2CA139000078025D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBF30F62CA139000078025D /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +45,6 @@
 		3CBF30C02CA138A30078025D /* SwifTecInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifTecInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBF30D02CA138A60078025D /* SwifTecInventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifTecInventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBF30DA2CA138A60078025D /* SwifTecInventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwifTecInventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CBF30F02CA139000078025D /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
-		3CBF30F22CA139000078025D /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
-		3CBF30F42CA139000078025D /* InventoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewModel.swift; sourceTree = "<group>"; };
-		3CBF30F62CA139000078025D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -165,7 +157,6 @@
 				395F1A342CA3A26C00588845 /* Packages */,
 				395F1A492CA3A26E00588845 /* InventoryTrackerVisionTests */,
 				3CBF30C12CA138A30078025D /* Products */,
-				3CBF30F72CA139000078025D /* Shared */,
 				395F1A712CA3A44800588845 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -180,41 +171,6 @@
 				395F1A462CA3A26E00588845 /* InventoryTrackerVisionTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3CBF30F12CA139000078025D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				3CBF30F02CA139000078025D /* String-Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		3CBF30F32CA139000078025D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3CBF30F22CA139000078025D /* InventoryItem.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		3CBF30F52CA139000078025D /* Observables */ = {
-			isa = PBXGroup;
-			children = (
-				3CBF30F42CA139000078025D /* InventoryListViewModel.swift */,
-			);
-			path = Observables;
-			sourceTree = "<group>";
-		};
-		3CBF30F72CA139000078025D /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				3CBF30F12CA139000078025D /* Extensions */,
-				3CBF30F32CA139000078025D /* Models */,
-				3CBF30F52CA139000078025D /* Observables */,
-				3CBF30F62CA139000078025D /* AppDelegate.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,10 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CBF30F82CA139000078025D /* InventoryItem.swift in Sources */,
-				3CBF30F92CA139000078025D /* InventoryListViewModel.swift in Sources */,
-				3CBF30FA2CA139000078025D /* String-Extension.swift in Sources */,
-				3CBF30FB2CA139000078025D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

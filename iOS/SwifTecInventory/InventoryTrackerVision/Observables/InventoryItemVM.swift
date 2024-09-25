@@ -5,9 +5,7 @@
 //  Created by Eugenio Pedraza on 9/21/24.
 //
 
-
-// SEGUN EN EL VIDEO DEBE SER "import FirebaseFirestore" TIEMPO 2:17:00
-import FirebaseFirestoreCombineSwift
+import FirebaseFirestore
 import FirebaseStorage
 import Foundation
 import SwiftUI
@@ -23,23 +21,9 @@ class InventoryItemViewModel: ObservableObject {
     
     func listenToItem(_ item: InventoryItem) {
         self.item = item
-        
-        /* AQUI DEBERIA SEGUN EL VIDEO TIEMPO 2:19:00 APROX
-         Firestore.firestore().collection("items")
+        Firestore.firestore().collection("items")
             .document(item.id)
             .addSnapshotListener { [weak self] snapshot, error in
-         guard let self, let snapshot else {
-             print("Error fetching snapshot: \(error?.localizedDescription ?? "error")")
-             return
-         }
-         */
-        
-        // SI LO OTRO LO ARREGLAS FUNCIONA BORRA ESTA PARTE SOLO ESTABA PROBABNDO
-        FirebaseFirestoreCombineSwift
-        // HASTA AQUI
-            .firestore().collection("items")
-            .document(item.id)
-            .addSnapShotListener { [weak self] snapshot, error in
                 guard let self, let snapshot else {
                     print("Error fetching snapshot: \(error?.localizedDescription ?? "error")")
                     return
@@ -60,6 +44,7 @@ class InventoryItemViewModel: ObservableObject {
             }
     }
     
+    
     @MainActor
     func fetchFileURL(usdzURL: URL) async {
         guard let url = usdzURL.usdzFileCacheURL else { return }
@@ -72,7 +57,7 @@ class InventoryItemViewModel: ObservableObject {
                     .writeAsync(toFile: url)
             }
             let entity = try await ModelEntity(contentsOf: url)
-            entity.name = item?.usdzURL.absoluteString ?? ""
+            entity.name = item?.usdzURL?.absoluteString ?? ""
             entity.generateCollisionShapes(recursive: true)
             entity.components.set(InputTargetComponent())
             self.usdzFileURL = url

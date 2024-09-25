@@ -10,7 +10,7 @@ import SwiftUI
 
 struct InventoryListView: View {
     
-    @StateObject var vm = InventoryListViewModel()
+    @State var vm = InventoryListViewModel()
     private let gridItems: [GridItem] =
         [.init(.adaptive(minimum: 240), spacing: 16)]
     
@@ -18,7 +18,7 @@ struct InventoryListView: View {
         ScrollView {
             LazyVGrid(columns: gridItems) {
                 ForEach(vm.items) { item in
-                    InventoryListItemView(item: item)
+                    InventoryTrackerItemView(item: item)
                         .onDrag {
                             guard let usdzURL = item.usdzURL else { return NSItemProvider() }
                             return NSItemProvider(object: USDZItemProvider(usdzURL: usdzURL))
@@ -29,7 +29,7 @@ struct InventoryListView: View {
             .padding(.horizontal, 30)
         }
         .navigationTitle("AR Inventory")
-        .onAppear { vm.listenToItems() }
+        .onAppear { vm.fetchItems() }
     }
 }
                       
@@ -37,13 +37,13 @@ struct InventoryTrackerItemView: View {
     
     let item: InventoryItem
     
-    @EnvironmentObject var navVM: NagigationViewModel
+    @EnvironmentObject var navVM: NavigationViewModel
     @Environment(\.openWindow) var openWindow
     
     
     var body: some View {
         Button {
-            navVM.selecedItem = item
+            navVM.selectedItem = item
             openWindow(id: "item")
         } label: {
             VStack {
@@ -61,7 +61,7 @@ struct InventoryTrackerItemView: View {
                             }
                         }
                     } else {
-                        RoundedRectangle(cornderRadius: 16)
+                        RoundedRectangle(cornerRadius: 16)
                             .foregroundColor(Color.gray
                               .opacity(0.3))
                         Text("Not Available")
