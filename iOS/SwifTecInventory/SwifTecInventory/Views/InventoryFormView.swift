@@ -12,7 +12,7 @@ import USDZScanner
 
 struct InventoryFormView: View {
     
-    @StateObject var vm = InventoryFormViewModel()
+    @State var vm = InventoryFormViewModel() 
     @Environment(\.dismiss) var dismiss
     
     var body: some View {

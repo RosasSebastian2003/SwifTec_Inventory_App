@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3933C4AC2CA3B25F001385F7 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3933C4AB2CA3B25F001385F7 /* USDZScanner */; };
 		395F1A732CA3A44800588845 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 395F1A722CA3A44800588845 /* FirebaseFirestore */; };
 		395F1A752CA3A45600588845 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 395F1A742CA3A45600588845 /* FirebaseStorage */; };
 		395F1A772CA3A46600588845 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 395F1A762CA3A46600588845 /* FirebaseStorage */; };
@@ -48,21 +49,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		395F1A502CA3A26E00588845 /* Exceptions for "InventoryTrackerVision" folder in "InventoryTrackerVision" target */ = {
+		3933C4FE2CA3B873001385F7 /* Exceptions for "SwifTecInventory" folder in "SwifTecInventory" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 395F1A312CA3A26C00588845 /* InventoryTrackerVision */;
+			target = 3CBF30BF2CA138A30078025D /* SwifTecInventory */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		395F1A332CA3A26C00588845 /* InventoryTrackerVision */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				395F1A502CA3A26E00588845 /* Exceptions for "InventoryTrackerVision" folder in "InventoryTrackerVision" target */,
-			);
 			path = InventoryTrackerVision;
 			sourceTree = "<group>";
 		};
@@ -73,6 +71,9 @@
 		};
 		3CBF30C22CA138A30078025D /* SwifTecInventory */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3933C4FE2CA3B873001385F7 /* Exceptions for "SwifTecInventory" folder in "SwifTecInventory" target */,
+			);
 			path = SwifTecInventory;
 			sourceTree = "<group>";
 		};
@@ -110,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3933C4AC2CA3B25F001385F7 /* USDZScanner in Frameworks */,
 				395F1A772CA3A46600588845 /* FirebaseStorage in Frameworks */,
 				395F1A792CA3A47100588845 /* FirebaseFirestore in Frameworks */,
 			);
@@ -243,6 +245,7 @@
 			packageProductDependencies = (
 				395F1A762CA3A46600588845 /* FirebaseStorage */,
 				395F1A782CA3A47100588845 /* FirebaseFirestore */,
+				3933C4AB2CA3B25F001385F7 /* USDZScanner */,
 			);
 			productName = SwifTecInventory;
 			productReference = 3CBF30C02CA138A30078025D /* SwifTecInventory.app */;
@@ -335,6 +338,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				395F1A702CA3A40B00588845 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3933C4AA2CA3B255001385F7 /* XCRemoteSwiftPackageReference "USDZScanner" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3CBF30C12CA138A30078025D /* Products */;
@@ -670,7 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
-				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifTecInventory/Info.plist;
@@ -684,7 +688,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.SwifTecInventory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -700,7 +704,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
-				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				DEVELOPMENT_TEAM = 8ZQ9K94C68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifTecInventory/Info.plist;
@@ -714,7 +718,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.SwifTecInventory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -854,6 +858,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		3933C4AA2CA3B255001385F7 /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/USDZScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 		395F1A702CA3A40B00588845 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -865,6 +877,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		3933C4AB2CA3B25F001385F7 /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3933C4AA2CA3B255001385F7 /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
+		};
 		395F1A722CA3A44800588845 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 395F1A702CA3A40B00588845 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

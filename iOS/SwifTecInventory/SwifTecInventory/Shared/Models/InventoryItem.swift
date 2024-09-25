@@ -9,7 +9,7 @@ import Foundation
 import FirebaseFirestore
 
 public struct InventoryItem: Identifiable, Codable, Equatable {
-    var id = UUID().uuidString
+    public var id = UUID().uuidString
     
     // Timestamps de subida y actualizacion definidas por el servidor
     @ServerTimestamp
