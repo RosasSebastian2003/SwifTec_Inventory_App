@@ -56,11 +56,21 @@
 			);
 			target = 3CBF30BF2CA138A30078025D /* SwifTecInventory */;
 		};
+		3CAC6E1B2CA48BB0005A082F /* Exceptions for "InventoryTrackerVision" folder in "InventoryTrackerVision" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 395F1A312CA3A26C00588845 /* InventoryTrackerVision */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		395F1A332CA3A26C00588845 /* InventoryTrackerVision */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CAC6E1B2CA48BB0005A082F /* Exceptions for "InventoryTrackerVision" folder in "InventoryTrackerVision" target */,
+			);
 			path = InventoryTrackerVision;
 			sourceTree = "<group>";
 		};
