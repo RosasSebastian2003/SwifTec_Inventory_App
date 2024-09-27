@@ -45,7 +45,7 @@ class InventoryFormViewModel {
         }
     }
     
-    init(formType: FormType = .add) {
+init(formType: FormType = .add) {
         self.formType = formType
         switch formType {
         case .add:

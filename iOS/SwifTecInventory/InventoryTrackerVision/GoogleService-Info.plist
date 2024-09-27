@@ -9,22 +9,22 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.itesm.SwifTecInventory</string>
+	<string>com.itesm.InventoryTrackerVision</string>
 	<key>PROJECT_ID</key>
 	<string>inventorytrackerios</string>
 	<key>STORAGE_BUCKET</key>
 	<string>inventorytrackerios.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:278464865212:ios:d6e093764ef0e3f81841b9</string>
+	<string>1:278464865212:ios:e4b5e53cd0af80a31841b9</string>
 </dict>
 </plist>

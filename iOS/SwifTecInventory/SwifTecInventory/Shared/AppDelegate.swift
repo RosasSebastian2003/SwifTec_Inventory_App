@@ -16,7 +16,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         FirebaseApp.configure()
         
         // Use local emmulator instead
-        //setupFirebaseLocalEmulator()
+        setupFirebaseLocalEmulator()
         
         return true
     }
