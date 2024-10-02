@@ -1,5 +1,5 @@
 {
-  "originHash" : "a69e326f3e37be3cf291667b275e0c41e3bf5a782e3f95bdb5bd58a073fad2cd",
+  "originHash" : "8f57223f2cd8c91d673a17911037b451967645a72b0f2c5699710bf0239b0c53",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -116,6 +116,15 @@
       "state" : {
         "revision" : "edb6ed4919f7756157fe02f2552b7e3850a538e5",
         "version" : "1.28.1"
+      }
+    },
+    {
+      "identity" : "usdzscanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RosasSebastian2003/USDZScanner.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b3873d14803dc868c4f636333c55c0198838a63c"
       }
     }
   ],

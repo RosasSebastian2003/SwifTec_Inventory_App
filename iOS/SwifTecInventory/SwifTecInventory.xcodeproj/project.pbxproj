@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		396A40432CA3A5B30066C6C9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 396A40422CA3A5B30066C6C9 /* RealityKitContent */; };
 		398B6B622CA63EAD00D8C710 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 398B6B612CA63EAD00D8C710 /* USDZScanner */; };
-		39ED4B372CA4B87100B5D079 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 39ED4B362CA4B87100B5D079 /* FirebaseFirestore */; };
-		39ED4B392CA4B87100B5D079 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 39ED4B382CA4B87100B5D079 /* FirebaseStorage */; };
-		39ED4B3B2CA4B8A000B5D079 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 39ED4B3A2CA4B8A000B5D079 /* FirebaseFirestore */; };
-		39ED4B3D2CA4B8B200B5D079 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 39ED4B3C2CA4B8B200B5D079 /* FirebaseStorage */; };
+		3C21755D2CA75C26001EA092 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C21755C2CA75C26001EA092 /* FirebaseFirestore */; };
+		3C21755F2CA75C26001EA092 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C21755E2CA75C26001EA092 /* FirebaseStorage */; };
+		3C2175612CA75C36001EA092 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C2175602CA75C36001EA092 /* FirebaseFirestore */; };
+		3C2175632CA75C53001EA092 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C2175622CA75C53001EA092 /* FirebaseStorage */; };
+		3C7623032CA761BA0082B69D /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3C7623022CA761BA0082B69D /* USDZScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,8 +106,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				396A40432CA3A5B30066C6C9 /* RealityKitContent in Frameworks */,
-				39ED4B3B2CA4B8A000B5D079 /* FirebaseFirestore in Frameworks */,
-				39ED4B3D2CA4B8B200B5D079 /* FirebaseStorage in Frameworks */,
+				3C2175612CA75C36001EA092 /* FirebaseFirestore in Frameworks */,
+				3C2175632CA75C53001EA092 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +123,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				398B6B622CA63EAD00D8C710 /* USDZScanner in Frameworks */,
-				39ED4B372CA4B87100B5D079 /* FirebaseFirestore in Frameworks */,
-				39ED4B392CA4B87100B5D079 /* FirebaseStorage in Frameworks */,
+				3C21755F2CA75C26001EA092 /* FirebaseStorage in Frameworks */,
+				3C21755D2CA75C26001EA092 /* FirebaseFirestore in Frameworks */,
+				3C7623032CA761BA0082B69D /* USDZScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +199,8 @@
 			name = InventoryTrackerVision;
 			packageProductDependencies = (
 				396A40422CA3A5B30066C6C9 /* RealityKitContent */,
-				39ED4B3A2CA4B8A000B5D079 /* FirebaseFirestore */,
-				39ED4B3C2CA4B8B200B5D079 /* FirebaseStorage */,
+				3C2175602CA75C36001EA092 /* FirebaseFirestore */,
+				3C2175622CA75C53001EA092 /* FirebaseStorage */,
 			);
 			productName = InventoryTrackerVision;
 			productReference = 395F1A322CA3A26C00588845 /* InventoryTrackerVision.app */;
@@ -244,9 +246,10 @@
 			);
 			name = SwifTecInventory;
 			packageProductDependencies = (
-				39ED4B362CA4B87100B5D079 /* FirebaseFirestore */,
-				39ED4B382CA4B87100B5D079 /* FirebaseStorage */,
 				398B6B612CA63EAD00D8C710 /* USDZScanner */,
+				3C21755C2CA75C26001EA092 /* FirebaseFirestore */,
+				3C21755E2CA75C26001EA092 /* FirebaseStorage */,
+				3C7623022CA761BA0082B69D /* USDZScanner */,
 			);
 			productName = SwifTecInventory;
 			productReference = 3CBF30C02CA138A30078025D /* SwifTecInventory.app */;
@@ -338,8 +341,8 @@
 			mainGroup = 3CBF30B72CA138A30078025D;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				398B6B602CA63EAD00D8C710 /* XCLocalSwiftPackageReference "../../../../../../Downloads/USDZScanner" */,
+				3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3C7623012CA761BA0082B69D /* XCRemoteSwiftPackageReference "USDZScanner" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3CBF30C12CA138A30078025D /* Products */;
@@ -458,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryTrackerVision/Preview Content\"";
-				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -468,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.InventoryTrackerVision;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.InventoryTrackerVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = xros;
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -487,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"InventoryTrackerVision/Preview Content\"";
-				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -497,7 +500,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.InventoryTrackerVision;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.InventoryTrackerVision;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = xros;
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -677,10 +680,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
-				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifTecInventory/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed for scanning features";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -692,7 +696,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.SwifTecInventory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -708,10 +712,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwifTecInventory/Preview Content\"";
-				DEVELOPMENT_TEAM = 8ZQ9K94C68;
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwifTecInventory/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed for scanning features";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -723,7 +728,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.SwifTecInventory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SRM.SwifTecInventory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -862,20 +867,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		398B6B602CA63EAD00D8C710 /* XCLocalSwiftPackageReference "../../../../../../Downloads/USDZScanner" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../../../../../Downloads/USDZScanner;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
-		39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 11.2.0;
+			};
+		};
+		3C7623012CA761BA0082B69D /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RosasSebastian2003/USDZScanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -889,25 +895,30 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = USDZScanner;
 		};
-		39ED4B362CA4B87100B5D079 /* FirebaseFirestore */ = {
+		3C21755C2CA75C26001EA092 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		39ED4B382CA4B87100B5D079 /* FirebaseStorage */ = {
+		3C21755E2CA75C26001EA092 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
-		39ED4B3A2CA4B8A000B5D079 /* FirebaseFirestore */ = {
+		3C2175602CA75C36001EA092 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		39ED4B3C2CA4B8B200B5D079 /* FirebaseStorage */ = {
+		3C2175622CA75C53001EA092 /* FirebaseStorage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 39ED4B352CA4B87100B5D079 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 3C21755B2CA75C26001EA092 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		3C7623022CA761BA0082B69D /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C7623012CA761BA0082B69D /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
