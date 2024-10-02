@@ -1,15 +1,15 @@
 //
-//  InventoryItem.swift
-//  SwifTec-Inventory-App
+//  InventoryItemModel.swift
+//  SwifTecInventory
 //
-//  Created by Sebastian Rosas Maciel on 9/22/24.
+//  Created by Sebastian Rosas Maciel on 02/10/24.
 //
 
 import Foundation
 import FirebaseFirestore
 
-struct InventoryItem: Identifiable, Codable, Equatable {
-    var id = UUID().uuidString
+public struct InventoryItem: Identifiable, Codable, Equatable {
+    public var id = UUID().uuidString
     
     // Timestamps de subida y actualizacion definidas por el servidor
     @ServerTimestamp

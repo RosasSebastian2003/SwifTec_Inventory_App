@@ -1,8 +1,8 @@
 //
-//  InventoryListViewModel.swift
-//  SwifTec-Inventory-App
+//  File.swift
+//  SwifTecInventory
 //
-//  Created by Sebastian Rosas Maciel on 9/22/24.
+//  Created by Sebastian Rosas Maciel on 02/10/24.
 //
 
 import Foundation
