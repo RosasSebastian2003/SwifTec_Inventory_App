@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF8D88A2CAD853800488DCB /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D8892CAD853800488DCB /* RealityKitContent */; };
+		3CF8D89B2CAD857700488DCB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D89A2CAD857700488DCB /* FirebaseFirestore */; };
+		3CF8D89D2CAD857700488DCB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D89C2CAD857700488DCB /* FirebaseStorage */; };
+		3CF8D8A02CAD858B00488DCB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D89F2CAD858B00488DCB /* FirebaseFirestore */; };
+		3CF8D8A22CAD859200488DCB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D8A12CAD859200488DCB /* FirebaseStorage */; };
+		3CF8D8A92CAD878300488DCB /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8A82CAD878300488DCB /* String-Extension.swift */; };
+		3CF8D8AA2CAD878300488DCB /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8A82CAD878300488DCB /* String-Extension.swift */; };
+		3CF8D8AC2CAD87B100488DCB /* InventoryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8AB2CAD87B100488DCB /* InventoryItemModel.swift */; };
+		3CF8D8AD2CAD87B200488DCB /* InventoryItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8AB2CAD87B100488DCB /* InventoryItemModel.swift */; };
+		3CF8D8AF2CAD87DA00488DCB /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8AE2CAD87DA00488DCB /* InventoryListViewModel.swift */; };
+		3CF8D8B02CAD87DA00488DCB /* InventoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8AE2CAD87DA00488DCB /* InventoryListViewModel.swift */; };
+		3CF8D8C82CAD89EA00488DCB /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 3CF8D8C72CAD89EA00488DCB /* USDZScanner */; };
+		3CF8D8E32CAD8D7E00488DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8E22CAD8D7E00488DCB /* AppDelegate.swift */; };
+		3CF8D8E42CAD8D7E00488DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF8D8E22CAD8D7E00488DCB /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CF8D86F2CAD84E100488DCB /* SwifTec-Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwifTec-Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF8D8852CAD853800488DCB /* SwifTec-Inventory-Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwifTec-Inventory-Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF8D8882CAD853800488DCB /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		3CF8D8A82CAD878300488DCB /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		3CF8D8AB2CAD87B100488DCB /* InventoryItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemModel.swift; sourceTree = "<group>"; };
+		3CF8D8AE2CAD87DA00488DCB /* InventoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListViewModel.swift; sourceTree = "<group>"; };
+		3CF8D8E22CAD8D7E00488DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CF8D8952CAD853A00488DCB /* Exceptions for "SwifTec-Inventory-Vision" folder in "SwifTec-Inventory-Vision" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3CF8D8842CAD853800488DCB /* SwifTec-Inventory-Vision */;
+		};
+		3CF8D8E62CAD8E6F00488DCB /* Exceptions for "SwifTec-Inventory" folder in "SwifTec-Inventory" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3CF8D86E2CAD84E100488DCB /* SwifTec-Inventory */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3CF8D8712CAD84E100488DCB /* SwifTec-Inventory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CF8D8E62CAD8E6F00488DCB /* Exceptions for "SwifTec-Inventory" folder in "SwifTec-Inventory" target */,
+			);
+			path = "SwifTec-Inventory";
+			sourceTree = "<group>";
+		};
+		3CF8D8862CAD853800488DCB /* SwifTec-Inventory-Vision */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CF8D8952CAD853A00488DCB /* Exceptions for "SwifTec-Inventory-Vision" folder in "SwifTec-Inventory-Vision" target */,
+			);
+			path = "SwifTec-Inventory-Vision";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF8D86C2CAD84E100488DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8D8C82CAD89EA00488DCB /* USDZScanner in Frameworks */,
+				3CF8D89B2CAD857700488DCB /* FirebaseFirestore in Frameworks */,
+				3CF8D89D2CAD857700488DCB /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8D8822CAD853800488DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8D88A2CAD853800488DCB /* RealityKitContent in Frameworks */,
+				3CF8D8A02CAD858B00488DCB /* FirebaseFirestore in Frameworks */,
+				3CF8D8A22CAD859200488DCB /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF8D8662CAD84E100488DCB = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8A32CAD859E00488DCB /* Shared */,
+				3CF8D8712CAD84E100488DCB /* SwifTec-Inventory */,
+				3CF8D8862CAD853800488DCB /* SwifTec-Inventory-Vision */,
+				3CF8D8872CAD853800488DCB /* Packages */,
+				3CF8D89E2CAD858B00488DCB /* Frameworks */,
+				3CF8D8702CAD84E100488DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF8D8702CAD84E100488DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D86F2CAD84E100488DCB /* SwifTec-Inventory.app */,
+				3CF8D8852CAD853800488DCB /* SwifTec-Inventory-Vision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF8D8872CAD853800488DCB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8882CAD853800488DCB /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		3CF8D89E2CAD858B00488DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF8D8A32CAD859E00488DCB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8B12CAD87EE00488DCB /* Extensions */,
+				3CF8D8B42CAD880C00488DCB /* Models */,
+				3CF8D8B52CAD881300488DCB /* ViewModels */,
+				3CF8D8E22CAD8D7E00488DCB /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3CF8D8B12CAD87EE00488DCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8A82CAD878300488DCB /* String-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CF8D8B42CAD880C00488DCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8AB2CAD87B100488DCB /* InventoryItemModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CF8D8B52CAD881300488DCB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3CF8D8AE2CAD87DA00488DCB /* InventoryListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF8D86E2CAD84E100488DCB /* SwifTec-Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF8D87E2CAD84E200488DCB /* Build configuration list for PBXNativeTarget "SwifTec-Inventory" */;
+			buildPhases = (
+				3CF8D86B2CAD84E100488DCB /* Sources */,
+				3CF8D86C2CAD84E100488DCB /* Frameworks */,
+				3CF8D86D2CAD84E100488DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3CF8D8712CAD84E100488DCB /* SwifTec-Inventory */,
+			);
+			name = "SwifTec-Inventory";
+			packageProductDependencies = (
+				3CF8D89A2CAD857700488DCB /* FirebaseFirestore */,
+				3CF8D89C2CAD857700488DCB /* FirebaseStorage */,
+				3CF8D8C72CAD89EA00488DCB /* USDZScanner */,
+			);
+			productName = "SwifTec-Inventory";
+			productReference = 3CF8D86F2CAD84E100488DCB /* SwifTec-Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF8D8842CAD853800488DCB /* SwifTec-Inventory-Vision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF8D8962CAD853A00488DCB /* Build configuration list for PBXNativeTarget "SwifTec-Inventory-Vision" */;
+			buildPhases = (
+				3CF8D8812CAD853800488DCB /* Sources */,
+				3CF8D8822CAD853800488DCB /* Frameworks */,
+				3CF8D8832CAD853800488DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3CF8D8862CAD853800488DCB /* SwifTec-Inventory-Vision */,
+			);
+			name = "SwifTec-Inventory-Vision";
+			packageProductDependencies = (
+				3CF8D8892CAD853800488DCB /* RealityKitContent */,
+				3CF8D89F2CAD858B00488DCB /* FirebaseFirestore */,
+				3CF8D8A12CAD859200488DCB /* FirebaseStorage */,
+			);
+			productName = "SwifTec-Inventory-Vision";
+			productReference = 3CF8D8852CAD853800488DCB /* SwifTec-Inventory-Vision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF8D8672CAD84E100488DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3CF8D86E2CAD84E100488DCB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3CF8D8842CAD853800488DCB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3CF8D86A2CAD84E100488DCB /* Build configuration list for PBXProject "SwifTec-Inventory" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF8D8662CAD84E100488DCB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3CF8D8C62CAD89EA00488DCB /* XCRemoteSwiftPackageReference "USDZScanner" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3CF8D8702CAD84E100488DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF8D86E2CAD84E100488DCB /* SwifTec-Inventory */,
+				3CF8D8842CAD853800488DCB /* SwifTec-Inventory-Vision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF8D86D2CAD84E100488DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8D8832CAD853800488DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF8D86B2CAD84E100488DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8D8AC2CAD87B100488DCB /* InventoryItemModel.swift in Sources */,
+				3CF8D8B02CAD87DA00488DCB /* InventoryListViewModel.swift in Sources */,
+				3CF8D8A92CAD878300488DCB /* String-Extension.swift in Sources */,
+				3CF8D8E42CAD8D7E00488DCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF8D8812CAD853800488DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF8D8AD2CAD87B200488DCB /* InventoryItemModel.swift in Sources */,
+				3CF8D8AA2CAD878300488DCB /* String-Extension.swift in Sources */,
+				3CF8D8E32CAD8D7E00488DCB /* AppDelegate.swift in Sources */,
+				3CF8D8AF2CAD87DA00488DCB /* InventoryListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CF8D87C2CAD84E200488DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF8D87D2CAD84E200488DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3CF8D87F2CAD84E200488DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwifTec-Inventory/SwifTec_Inventory.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTec-Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifTec-Inventory/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Authorize camera ussage for 3D Scanning Features";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itesm.SwifTec-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Debug;
+		};
+		3CF8D8802CAD84E200488DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SwifTec-Inventory/SwifTec_Inventory.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTec-Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwifTec-Inventory/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Authorize camera ussage for 3D Scanning Features";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itesm.SwifTec-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Release;
+		};
+		3CF8D8972CAD853A00488DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTec-Inventory-Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itesm.SwifTec-Inventory-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Debug;
+		};
+		3CF8D8982CAD853A00488DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwifTec-Inventory-Vision/Preview Content\"";
+				DEVELOPMENT_TEAM = PSZW65H9Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itesm.SwifTec-Inventory-Vision";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF8D86A2CAD84E100488DCB /* Build configuration list for PBXProject "SwifTec-Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8D87C2CAD84E200488DCB /* Debug */,
+				3CF8D87D2CAD84E200488DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF8D87E2CAD84E200488DCB /* Build configuration list for PBXNativeTarget "SwifTec-Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8D87F2CAD84E200488DCB /* Debug */,
+				3CF8D8802CAD84E200488DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF8D8962CAD853A00488DCB /* Build configuration list for PBXNativeTarget "SwifTec-Inventory-Vision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF8D8972CAD853A00488DCB /* Debug */,
+				3CF8D8982CAD853A00488DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		3CF8D8C62CAD89EA00488DCB /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RosasSebastian2003/USDZScanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CF8D8892CAD853800488DCB /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		3CF8D89A2CAD857700488DCB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3CF8D89C2CAD857700488DCB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3CF8D89F2CAD858B00488DCB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3CF8D8A12CAD859200488DCB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF8D8992CAD857700488DCB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3CF8D8C72CAD89EA00488DCB /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CF8D8C62CAD89EA00488DCB /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CF8D8672CAD84E100488DCB /* Project object */;
+}
